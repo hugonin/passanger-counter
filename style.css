@@ -1,8 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 html {
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    min-height: 100vh;
+    text-align: center;
+    background-color: #598392;
+    color: #124559;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2301161e' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    
 }
+
+.header {
+    font-size: 22px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    border: 5px solid #124559;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.num {
+    font-size: 5em;
+    width: 50%; 
+}
+
+.btn {
+    padding: 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.btn:hover {
+    background-color: #eff6e0;
+
+}
+
+.btn-reset {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #aec3b0;
+}
+
+.btn-reset:hover {
+    background-color: #eff6e0;
+}
+
+.icon-add, .icon-save {
+    font-size: 3em; 
+    color: #aec3b0;
+}
+
+.footer-fineprint {
+    font-size: .85rem;
+    margin-top: 4em;
+    opacity: .7;
+}
+
+
